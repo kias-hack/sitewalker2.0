@@ -1,0 +1,28 @@
+{
+  "protocol": "https",
+  "domain": "any-domain",
+  "exclude_path": [
+    "/aspro_regions",
+    "/admin",
+    "/api",
+    "/ajax",
+    "/local",
+    "/bitrix",
+    "/upload",
+    "/auth",
+    "/dev",
+    "/images",
+    "/search",
+    "filter"
+  ],
+  "exclude_search_params": [
+    "order",
+    "by",
+    "forgot_password",
+    "filter_history",
+    "login",
+    "view"
+  ],
+  "output_filename": "./reports/gendalfru",
+  "ignore_hash": true
+}
